@@ -2,8 +2,6 @@
 
 This repository is a collection of my thoughts, summaries, and reflections on literature, websites, and tutorials that explore the intersection of materials science and artificial intelligence.
 
-For English version, please refer to [README_en.md](README_en.md)
-
 ## Directory
 - [Preface](#preface)
 - [LLM + Materials](#llm--materials)
@@ -20,7 +18,7 @@ For English version, please refer to [README_en.md](README_en.md)
 
 # Preface
 
-本仓库记录关于LLM (large language models)和AI/ML在材料科学中应用的文献，特别是关于LLM在材料中的应用。看过的文章会至少用一句话概括内容，有些还会有notes。只有标题的就是还没看过的，只是先存档到这里。
+This repository records literature on the application of LLM (large language models) and AI/ML in materials science, particularly focusing on the application of LLMs in materials. Articles I have reviewed are summarized with at least one sentence, and some may have additional notes. Titles without summaries are items I haven’t reviewed yet but have archived for later.
 
 # LLM + Materials
 
@@ -31,34 +29,36 @@ None
 None
 
 ## Knowledge distillation
-1. 从零开始实现大模型知识蒸馏 -- Starting from scratch to achieve knowledge distillation of large models (Bilibili video Jan 2025) [[Link]](https://www.bilibili.com/video/BV1kQcoetEFM/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=4c43a44b540724d9ab77627ff3efb406) 使用qwen2.5系列模型在特定任务上进行知识蒸馏，教师模型为qwen2.5-3b（qwen2.5-7b），学生模型为qwen2.5-0.5b，尝试只使用KL散度、微调学生模型加KL散度和不微调学生模型加交叉熵加KL散度等不同思路，并且使用了KL散度不同变种（反向KL散度，偏向前向KL散度，偏向反向KL散度）。反向 K2 散度优于前向 K2 散度,但仅仅微调学生模型准确度反而最好为80.3%。
+1. **Starting from scratch to achieve knowledge distillation of large models** (Bilibili video Jan 2025) [[Link]](https://www.bilibili.com/video/BV1kQcoetEFM/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=4c43a44b540724d9ab77627ff3efb406)  
+This video demonstrates knowledge distillation of the Qwen2.5 series model for specific tasks. The teacher model is Qwen2.5-3b (Qwen2.5-7b), and the student model is Qwen2.5-0.5b. The video explores different methods, such as using only KL divergence, fine-tuning the student model with KL divergence, and combining cross-entropy with KL divergence. Various KL divergence variants are explored, including reverse KL divergence, forward-biased KL divergence, and reverse-biased KL divergence. Reverse K2 divergence outperforms forward K2 divergence, but fine-tuning the student model alone achieves the best accuracy of 80.3%.
 
 # Materials with AI
 ## Properties Prediction
 None
 
 ## Knowledge Extraction
-1. Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science (Arxiv Nov 2024) [[Paper]](https://arxiv.org/pdf/2412.09628) 大规模(159,295 papers)AI4S文献摘要分析。磁性材料，锂离子电池，钙钛矿太阳能电池是AI融合比较缺乏的领域。作者用文献训练了节点之间的link预测模型，传统的Node2Vec方法比较适合分析AI和Sci领域是否可能产生连接。
+1. **Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science** (Arxiv Nov 2024) [[Paper]](https://arxiv.org/pdf/2412.09628)  
+A large-scale analysis (159,295 papers) of AI4Science literature. Magnetic materials, lithium-ion batteries, and perovskite solar cells are areas where AI integration is relatively lacking. The author trains a link prediction model between nodes using literature and finds that traditional Node2Vec methods are effective for analyzing potential connections between AI and science fields.
 
 ## Crystal structure
-1. Progress in Deep Learning Crystal Structure Generation (Github repo) [[Link]](https://github.com/kdmsit/Awesome-Crystal-GNNs/tree/main)
+1. **Progress in Deep Learning Crystal Structure Generation** (Github repo) [[Link]](https://github.com/kdmsit/Awesome-Crystal-GNNs/tree/main)
 
 # Benchmark and Database
 - ## Materials Benchmark or Database
   | Name | Description | Link | Category |
   |---|---|---|---|
-  | perovskitedatabase  | perovskitedatabase | https://github.com/Grenzlinie/perovskitedatabase | perovskite |
-  | dlmatreview | software packages and databases used in deep-learning applications for materials science and engineering | https://github.com/deepmaterials/dlmatreview | 材料科学数据库和软件github仓库 |
+  | perovskitedatabase | Perovskite database | [Link](https://github.com/Grenzlinie/perovskitedatabase) | Perovskite |
+  | dlmatreview | Software packages and databases used in deep learning applications for materials science and engineering | [Link](https://github.com/deepmaterials/dlmatreview) | Materials Science Database and Software |
 
 - ## AI-related Benchmark or Database
   | Name | Description | Link | Category |
   |---|---|---|---|
-  | SciAssess | Benchmarking LLM Proficiency in Scientific Literature Analysis | https://arxiv.org/abs/2403.01976 | 材料文本问答数据库 |
-  | SciQAG | A Framework for Auto-Generated Science Question Answering Dataset with Fine-grained Evaluation | https://arxiv.org/abs/2405.09939 | 材料文本问答数据库 |
-  | HoneyComb | A Flexible LLM-Based Agent System for Materials Science | https://aclanthology.org/2024.findings-emnlp.192/ | 材料Agent数据库 |
-  | Bohrium | DeepMD and AI4S notebook square | https://bohrium.dp.tech/notebooks?notebookTab=recommendations | AI4S知识分享平台 |
-  | LLM4Mat-Bench | Benchmarking Large Language Models for Materials Property Prediction | https://arxiv.org/abs/2411.00177 | LLM在材料科学知识的回答表现 |
-  | MaScQA | investigating materials science knowledge of large language models | https://pubs.rsc.org/en/content/articlelanding/2024/dd/d3dd00188a | LLM在材料科学知识的回答表现 |
+  | SciAssess | Benchmarking LLM Proficiency in Scientific Literature Analysis | [Link](https://arxiv.org/abs/2403.01976) | Materials Text Q&A Database |
+  | SciQAG | A Framework for Auto-Generated Science Question Answering Dataset with Fine-grained Evaluation | [Link](https://arxiv.org/abs/2405.09939) | Materials Text Q&A Database |
+  | HoneyComb | A Flexible LLM-Based Agent System for Materials Science | [Link](https://aclanthology.org/2024.findings-emnlp.192/) | Materials Agent Database |
+  | Bohrium | DeepMD and AI4S notebook square | [Link](https://bohrium.dp.tech/notebooks?notebookTab=recommendations) | AI4S Knowledge Sharing Platform |
+  | LLM4Mat-Bench | Benchmarking Large Language Models for Materials Property Prediction | [Link](https://arxiv.org/abs/2411.00177) | LLMs in Materials Science Knowledge Answering Performance |
+  | MaScQA | Investigating Materials Science Knowledge of Large Language Models | [Link](https://pubs.rsc.org/en/content/articlelanding/2024/dd/d3dd00188a) | LLMs in Materials Science Knowledge Answering Performance |
 
 - ## Alloy Materials Benchmark or Database
 | Source | Database name | Data Type | Availability | Datasize | Inclusion | Link |
