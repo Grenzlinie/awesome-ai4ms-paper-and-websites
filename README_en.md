@@ -47,8 +47,10 @@ A large-scale analysis (159,295 papers) of AI4Science literature. Magnetic mater
 - ## Materials Benchmark or Database
   | Name | Description | Link | Category |
   |---|---|---|---|
-  | perovskitedatabase | Perovskite database | [Link](https://github.com/Grenzlinie/perovskitedatabase) | Perovskite |
-  | dlmatreview | Software packages and databases used in deep learning applications for materials science and engineering | [Link](https://github.com/deepmaterials/dlmatreview) | Materials Science Database and Software |
+  | perovskitedatabase  | perovskitedatabase | https://github.com/Grenzlinie/perovskitedatabase | Perovskite |
+  | dlmatreview | software packages and databases used in deep-learning applications for materials science and engineering | https://github.com/deepmaterials/dlmatreview | Materials Science Database and Software GitHub Repos |
+  | DigiMOF | A Database of Metal–Organic Framework Synthesis Information Generated via Text Mining | https://pubs.acs.org/doi/full/10.1021/acs.chemmater.3c00788 | 3D MOF |
+  | 2DMat.ChemDX | Experimental dataplatform for 2D materials from synthesis to physicalproperties | https://2DMat.ChemDX.org | 2D Materials | 
 
 - ## AI-related Benchmark or Database
   | Name | Description | Link | Category |
