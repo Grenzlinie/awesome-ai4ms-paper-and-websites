@@ -29,7 +29,9 @@ None
 
 ## Agent
 1. **一文详尽之LLM-Based Agent**(Wechat Website)[[Link]](https://mp.weixin.qq.com/s/tprYtnARTwtSQwx3AZX4Zg) LLM-Based Agent的组件->规划、记忆、工具，单Agent和多Agent系统的架构，角色扮演的概念。
-2. **A Survey on Large Language Model based Autonomous** (arXiv Dec 2024)[**Review**] [[Paper]](https://arxiv.org/abs/2308.11432) 探讨了基于大型语言模型（LLM）的自主代理的构建、应用和评估方法。
+2. **A Survey on Large Language Model based Autonomous** (arXiv Dec 2024) ⭐️ [**Review**] [[Paper]](https://arxiv.org/abs/2308.11432) 探讨了基于大型语言模型（LLM）的自主代理的构建、应用和评估方法。
+3. **AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence**(arXiv Jul 2024) ⭐️ [[Paper]](https://arxiv.org/html/2407.10022v1) 构建了一个Atom-Agent的multi-agents系统，用于完成一些复杂的材料计算任务。
+4. **Augmenting large language models with chemistry tools** (Nature Machine Intelligence 2024) [[Paper]](https://www.nature.com/articles/s42256-024-00832-8) 构建了一个叫ChemCrow的化学Agent，可以完成18种化学相关的任务（包括读文献、转化分子式等）。
 
 ## Knowledge distillation
 1. 从零开始实现大模型知识蒸馏 -- Starting from scratch to achieve knowledge distillation of large models (Bilibili video Jan 2025) [[Link]](https://www.bilibili.com/video/BV1kQcoetEFM/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=4c43a44b540724d9ab77627ff3efb406) 使用qwen2.5系列模型在特定任务上进行知识蒸馏，教师模型为qwen2.5-3b（qwen2.5-7b），学生模型为qwen2.5-0.5b，尝试只使用KL散度、微调学生模型加KL散度和不微调学生模型加交叉熵加KL散度等不同思路，并且使用了KL散度不同变种（反向KL散度，偏向前向KL散度，偏向反向KL散度）。反向 K2 散度优于前向 K2 散度,但仅仅微调学生模型准确度反而最好为80.3%。
