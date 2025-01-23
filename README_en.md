@@ -26,7 +26,8 @@ This repository records literature on the application of LLM (large language mod
 None
 
 ## Agent
-None
+1. **A Comprehensive Overview of LLM-Based Agents** (Wechat Website) [[Link]](https://mp.weixin.qq.com/s/tprYtnARTwtSQwx3AZX4Zg) Components of LLM-Based Agents -> Planning, Memory, Tools, Architecture of Single-Agent and Multi-Agent Systems, Concept of Role-Playing.
+2. **A Survey on Large Language Model based Autonomous Agents** (arXiv Dec 2024) [**Review**] [[Paper]](https://arxiv.org/abs/2308.11432) Discusses the construction, application, and evaluation methods of autonomous agents based on large language models (LLMs).
 
 ## Knowledge distillation
 1. **Starting from scratch to achieve knowledge distillation of large models** (Bilibili video Jan 2025) [[Link]](https://www.bilibili.com/video/BV1kQcoetEFM/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=4c43a44b540724d9ab77627ff3efb406)  
