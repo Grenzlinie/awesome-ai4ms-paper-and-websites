@@ -7,12 +7,13 @@ For English version, please refer to [README_en.md](README_en.md)
 ## Directory
 - [Preface](#preface)
 - [LLM + Materials](#llm--materials)
+  - [Literature Knowledge Extraction](#literature-knowledge-extraction)
   - [RAG](#rag)
   - [Agent](#agent)
   - [Knowledge distillation](#knowledge-distillation)
 - [Materials with AI](#materials-with-ai)
   - [Properties Prediction](#properties-prediction)
-  - [Knowledge Extraction](#knowledge-extraction)
+  - [Crystal Structure](#crystal-structure)
 - [Benchmark and Database](#benchmark-and-database)
   - [Materials Benchmark or Database](#materials-benchmark-or-database)
   - [AI-related Benchmark or Database](#ai-related-benchmark-or-database)
@@ -23,6 +24,10 @@ For English version, please refer to [README_en.md](README_en.md)
 本仓库记录关于LLM (large language models)和AI/ML在材料科学中应用的文献，特别是关于LLM在材料中的应用。看过的文章会至少用一句话概括内容，有些还会有notes。只有标题的就是还没看过的，只是先存档到这里。
 
 # LLM + Materials
+## Literature Knowledge Extraction
+1. **Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science** (Arxiv Nov 2024) [[Paper]](https://arxiv.org/pdf/2412.09628) 大规模(159,295 papers)AI4S文献摘要分析。磁性材料，锂离子电池，钙钛矿太阳能电池是AI融合比较缺乏的领域。作者用文献训练了节点之间的link预测模型，传统的Node2Vec方法比较适合分析AI和Sci领域是否可能产生连接。
+2. **Extracting accurate materials data from research papers with conversational language models and prompt engineering** (Nature Communications Feb 2024) [[Paper]](https://doi.org/10.1038/s41467-024-45914-8) 通过prompt engineering的方式从文献中提取材料格式化数据。
+3. **Structured information extraction from scientific text with large language models** (Nature Communications Feb 2024) [[Paper]](https://doi.org/10.1038/s41467-024-45563-x) 通过fine-tune LLM的方式从文献中提取材料格式化数据。
 
 ## RAG
 None
@@ -40,10 +45,7 @@ None
 ## Properties Prediction
 None
 
-## Knowledge Extraction
-1. Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science (Arxiv Nov 2024) [[Paper]](https://arxiv.org/pdf/2412.09628) 大规模(159,295 papers)AI4S文献摘要分析。磁性材料，锂离子电池，钙钛矿太阳能电池是AI融合比较缺乏的领域。作者用文献训练了节点之间的link预测模型，传统的Node2Vec方法比较适合分析AI和Sci领域是否可能产生连接。
-
-## Crystal structure
+## Crystal Structure
 1. Progress in Deep Learning Crystal Structure Generation (Github repo) [[Link]](https://github.com/kdmsit/Awesome-Crystal-GNNs/tree/main)
 
 # Benchmark and Database

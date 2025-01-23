@@ -5,12 +5,13 @@ This repository is a collection of my thoughts, summaries, and reflections on li
 ## Directory
 - [Preface](#preface)
 - [LLM + Materials](#llm--materials)
+  - [Literature Knowledge Extraction](#literature-knowledge-extraction)
   - [RAG](#rag)
   - [Agent](#agent)
   - [Knowledge distillation](#knowledge-distillation)
 - [Materials with AI](#materials-with-ai)
   - [Properties Prediction](#properties-prediction)
-  - [Knowledge Extraction](#knowledge-extraction)
+  - [Crystal Structure](#crystal-structure)
 - [Benchmark and Database](#benchmark-and-database)
   - [Materials Benchmark or Database](#materials-benchmark-or-database)
   - [AI-related Benchmark or Database](#ai-related-benchmark-or-database)
@@ -21,6 +22,10 @@ This repository is a collection of my thoughts, summaries, and reflections on li
 This repository records literature on the application of LLM (large language models) and AI/ML in materials science, particularly focusing on the application of LLMs in materials. Articles I have reviewed are summarized with at least one sentence, and some may have additional notes. Titles without summaries are items I haven’t reviewed yet but have archived for later.
 
 # LLM + Materials
+## Literature Knowledge Extraction
+1. **Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science** (Arxiv Nov 2024) [[Paper]](https://arxiv.org/pdf/2412.09628) A large-scale analysis (159,295 papers) of AI4Science literature. Magnetic materials, lithium-ion batteries, and perovskite solar cells are areas where AI integration is relatively lacking. The author trains a link prediction model between nodes using literature, and finds that traditional Node2Vec methods are suitable for analyzing potential connections between AI and scientific fields.
+2. **Extracting accurate materials data from research papers with conversational language models and prompt engineering** (Nature Communications Feb 2024) [[Paper]](https://doi.org/10.1038/s41467-024-45914-8) Extracting formatted materials data from literature through prompt engineering.
+3. **Structured information extraction from scientific text with large language models** (Nature Communications Feb 2024) [[Paper]](https://doi.org/10.1038/s41467-024-45563-x) Extracting formatted materials data from literature by fine-tuning large language models.
 
 ## RAG
 None
@@ -38,10 +43,6 @@ This video demonstrates knowledge distillation of the Qwen2.5 series model for s
 # Materials with AI
 ## Properties Prediction
 None
-
-## Knowledge Extraction
-1. **Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science** (Arxiv Nov 2024) [[Paper]](https://arxiv.org/pdf/2412.09628)  
-A large-scale analysis (159,295 papers) of AI4Science literature. Magnetic materials, lithium-ion batteries, and perovskite solar cells are areas where AI integration is relatively lacking. The author trains a link prediction model between nodes using literature and finds that traditional Node2Vec methods are effective for analyzing potential connections between AI and science fields.
 
 ## Crystal structure
 1. **Progress in Deep Learning Crystal Structure Generation** (Github repo) [[Link]](https://github.com/kdmsit/Awesome-Crystal-GNNs/tree/main)
