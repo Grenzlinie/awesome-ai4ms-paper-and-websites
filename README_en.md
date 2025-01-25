@@ -28,13 +28,14 @@ This repository records literature on the application of LLM (large language mod
 3. **Structured information extraction from scientific text with large language models** (Nature Communications Feb 2024) [[Paper]](https://doi.org/10.1038/s41467-024-45563-x) Extracting formatted materials data from literature by fine-tuning large language models.
 
 ## RAG
-None
+1. **Agentic Retrieval-Augmented Generation: A Survey On Agentic RAG** (arXiv Jan 2025) ⭐️ [**Review**] [[Paper]](https://arxiv.org/pdf/2501.09136) [[GitHub]](https://github.com/asinghcsu/AgenticRAG-Survey) This article provides insights into the classification, applications, and challenges of Agent RAG systems. The GitHub repository contains various visualizations of the models, suitable for beginners to learn the concepts.
 
 ## Agent
 1. **A Comprehensive Overview of LLM-Based Agents** (Wechat Website) [[Link]](https://mp.weixin.qq.com/s/tprYtnARTwtSQwx3AZX4Zg) Components of LLM-Based Agents -> Planning, Memory, Tools, Architecture of Single-Agent and Multi-Agent Systems, Concept of Role-Playing.
 2. **A Survey on Large Language Model based Autonomous Agents** (arXiv Dec 2024) [**Review**] [[Paper]](https://arxiv.org/abs/2308.11432) Discusses the construction, application, and evaluation methods of autonomous agents based on large language models (LLMs).
 3. **AtomAgents: Alloy design and discovery through physics-aware multi-modal multi-agent artificial intelligence** (arXiv Jul 2024) ⭐️ [[Paper]](https://arxiv.org/html/2407.10022v1) Built a multi-agent system called Atom-Agent to perform complex materials computation tasks.
 4. **Augmenting large language models with chemistry tools** (Nature Machine Intelligence 2024) [[Paper]](https://www.nature.com/articles/s42256-024-00832-8) Developed a chemical agent called ChemCrow, which can perform 18 chemistry-related tasks (including reading literature, converting molecular formulas, etc.).
+5. **Agentic Retrieval-Augmented Generation: A Survey On Agentic RAG** (arXiv Jan 2025) ⭐️ [**Review**] [[Paper]](https://arxiv.org/pdf/2501.09136) [[GitHub]](https://github.com/asinghcsu/AgenticRAG-Survey) This article provides insights into the classification, applications, and challenges of Agent RAG systems. The GitHub repository contains various visualizations of the models, suitable for beginners to learn the concepts.
 
 ## Knowledge distillation
 1. **Starting from scratch to achieve knowledge distillation of large models** (Bilibili video Jan 2025) [[Link]](https://www.bilibili.com/video/BV1kQcoetEFM/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=4c43a44b540724d9ab77627ff3efb406)  
