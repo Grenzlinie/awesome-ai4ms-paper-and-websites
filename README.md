@@ -24,6 +24,9 @@ For English version, please refer to [README_en.md](README_en.md)
 本仓库记录关于LLM (large language models)和AI/ML在材料科学中应用的文献，特别是关于LLM在材料中的应用。看过的文章会至少用一句话概括内容，有些还会有notes。只有标题的就是还没看过的，只是先存档到这里。
 
 # LLM + Materials
+## General LLM
+1. **Nature Language Model: Deciphering the Language of Nature for Scientific Discovery** (Arxiv Mar 2025) [[Paper]](https://arxiv.org/abs/2502.07527) 微软开发的多学科大语言模型，采用的MoE架构，用特殊token标记不同学科的知识，一个模型多种功能，比如转换分子式到SMILES，通过性质预测材料等等。材料化学领域还有之前的ChemDFM, ChemLLM, MatChat, Darwin, SteelBERT等一系列类似的预训练工作。
+
 ## Literature Knowledge Extraction
 1. **Bridging AI and Science: Implications from a Large-Scale Literature Analysis of AI4Science** (Arxiv Nov 2024) [[Paper]](https://arxiv.org/pdf/2412.09628) 大规模(159,295 papers)AI4S文献摘要分析。磁性材料，锂离子电池，钙钛矿太阳能电池是AI融合比较缺乏的领域。作者用文献训练了节点之间的link预测模型，传统的Node2Vec方法比较适合分析AI和Sci领域是否可能产生连接。
 2. **Extracting accurate materials data from research papers with conversational language models and prompt engineering** (Nature Communications Feb 2024) [[Paper]](https://doi.org/10.1038/s41467-024-45914-8) 通过prompt engineering的方式从文献中提取材料格式化数据。
